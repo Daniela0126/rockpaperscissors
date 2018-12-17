@@ -2,31 +2,33 @@
   text-align:center;
   
 }
+
+h1{
+color:  #d9b3ff;
+}
+
 #instructions{
   font-size: 20px;
-  font-family:  'Libre Baskerville', serif;;
+  font-family:  'Libre Baskerville', serif;
+  color:white;
 }
 #choices{
   display:flex;
   justify-content:space-between;
   margin: 15px;
   margin-bottom: 25px;
+    font-family: 'ZCOOL XiaoWei', serif;
+
 }
 #userChoice{
-  border: double;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #808080;
-  width: 50px;
+  color: white;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 50px;
 }
 #computerChoice{
-  border: double;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #808080;
-  width: 50px
+  color: white;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 50px;
 }
 
 #result{
@@ -35,13 +37,13 @@
 }
 
 #winner{
-  border: double;
-  padding: 10px;
-  margin-left: 500px;
-  margin-right: 500px;
-  height: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: linear-gradient(to bottom, #cc0099 0%, #003366 100%);
   color: white;
+  font-family: 'Charm', cursive;
+  font-size: 50px;
+}
+
+html{
+  background-image: url("https://st4.depositphotos.com/3269129/19906/v/600/depositphotos_199064016-stock-video-low-poly-abstract-background-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
 }
