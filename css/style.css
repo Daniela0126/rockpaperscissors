@@ -50,8 +50,17 @@ html{
 
 h3{
   color: white;
+  font-size: 20px;
+
 }
 
 h4{
   color: white;
+    font-size: 20px;
+
+}
+h5{
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
 }
